@@ -3,8 +3,7 @@ server:
 spring:
 keycloak:
     realm: master
-    #auth-server-url: http://203.195.145.114:8080/auth
-    auth-server-url: http://sso-dev.thelook.cn/auth
+    auth-server-url: http://****/auth
     ssl-required: none
     resource: test1
     credentials.secret: 11111111-1111-1111-1111-111111111111
